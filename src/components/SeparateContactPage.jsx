@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SeparateContactPage = () => {
     return (
       <>
-        <div className="separate-contact-page bg-white text-gray-900 min-h-screen p-8 flex items-start space-x-20">
+        <div className="separate-contact-page  text-gray-900 min-h-screen p-8 flex items-start space-x-20">
           {/* Left Column: Paragraph */}
           <div className="flex-1">
             <h1 className="title-tex-color text-7xl font-bold text-blue-400 mb-4">Let's Collaborate</h1>
