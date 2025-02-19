@@ -11,10 +11,10 @@
     "jspdf": "^3.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-push-notification": "^1.5.4",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
-    "react-scroll": "^1.9.2"
+    "react-scroll": "^1.9.2",
+    "react-toastify": "^11.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
