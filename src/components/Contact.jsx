@@ -24,15 +24,15 @@ const Contact = () => {
         {/* social medias */} 
         <div className="text-left mt-5 flex gap-4"> 
 
-         <a href="https://x.com/AnujKr028" >
+         <a href="https://x.com/AnujKr028" target="_blank" >
          <FontAwesomeIcon icon={faSquareXTwitter} className="w-8 h-8"/>
          </a> 
  
-        <a href="https://www.linkedin.com/in/anuj-kumar-48b4a1295/"> 
+        <a href="https://www.linkedin.com/in/anuj-kumar-48b4a1295/" target="_blank"> 
           <FontAwesomeIcon icon={faLinkedin}  className="w-8 h-8"/>
         </a> 
 
-        <a href="https://github.com/"> 
+        <a href="https://github.com/" target="_blank"> 
           <FontAwesomeIcon icon={faGithubSquare} className="w-8 h-8"/>
         </a>
 
