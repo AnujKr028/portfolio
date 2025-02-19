@@ -10,7 +10,6 @@ const SeparateContactPage = () => {
   const [email, setEmail] = useState("");
   const [goals, setGoals] = useState("");
 
-<<<<<<< HEAD
   // Warning Notification
   const WarningNotification = () => { 
     addNotification({ 
@@ -22,76 +21,6 @@ const SeparateContactPage = () => {
      
     }); 
   };
-=======
-const SeparateContactPage = () => {
-    return (
-      <>
-        <div className="separate-contact-page  text-gray-900 min-h-screen p-8 flex items-start space-x-20">
-          {/* Left Column: Paragraph */}
-          <div className="flex-1">
-            <h1 className="title-tex-color text-7xl font-bold text-blue-400 mb-4">Let's Collaborate</h1>
-            <p className="page-para text-xl leading-8 text-left w-80 mt-20 text-gray">
-              We always excited to connect with like-minded creators and innovators. Let’s work together to bring your vision to life. 
-              If you have an idea or a project, or anything in mind that could use some collaboration, don't hesitate to reach out.
-            </p>
-          </div>
-  
-          {/* Right Column: Form */}
-          <div className="flex-1">
-            <form className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
-              {/* First Name */}
-              <div className="mb-6">
-                <label htmlFor="firstName" className="block text-gray-700 font-medium mb-2">First Name:</label>
-                <input
-                  type="text"
-                  id="firstName"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-                  placeholder="Enter your first name"
-                />
-              </div>
-  
-              {/* Last Name */}
-              <div className="mb-6">
-                <label htmlFor="lastName" className="block text-gray-700 font-medium mb-2">Last Name:</label>
-                <input
-                  type="text"
-                  id="lastName"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-                  placeholder="Enter your last name"
-                />
-              </div>
-  
-              {/* Email */}
-              <div className="mb-6">
-                <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Your Email:</label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-                  placeholder="Enter your email"
-                />
-              </div>
-  
-              {/* Project Goals */}
-              <div className="mb-6">
-                <label htmlFor="goals" className="block text-gray-700 font-medium mb-2">Tell us more about your project goals:</label>
-                <textarea
-                  id="goals"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-                  rows="4"
-                  placeholder="Describe your project goals..."
-                />
-              </div>
-  
-              {/* Submit Button */}
-              <div className="text-right">
-              <button
-  type="submit"
-  className="px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition duration-300 gap-2 flex items-center"
->
-  Send <FontAwesomeIcon icon={faArrowRight} />
-</button>
->>>>>>> a0823d625f5d88eb85e9547ea16ce2d0bfe5e69c
 
   const handleSubmitBtn = (e) => {
     e.preventDefault();  
@@ -280,12 +209,3 @@ export default SeparateContactPage;
 
 
 
-<<<<<<< HEAD
-=======
-      </>
-    );
-  };
-  
-  export default SeparateContactPage;
-  
->>>>>>> a0823d625f5d88eb85e9547ea16ce2d0bfe5e69c
