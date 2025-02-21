@@ -69,7 +69,7 @@ const Home = () => {
   return (
     <>
       <ToastContainer />
-      <div className="separate-contact-page bg-white text-gray-900 min-h-screen p-8 flex flex-col md:flex-row items-center md:items-start md:space-x-20">
+      <div className="separate-contact-page bg-gray-900 text-gray-900 min-h-screen p-8 flex flex-col md:flex-row items-center md:items-start md:space-x-20">
         {/* Left Column: Paragraph */}
         <div className="flex-1 w-full text-center md:text-left">
           <h1 className="title-tex-color text-6xl md:text-5xl lg:text-7xl font-bold text-blue-400 mb-4">
